@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="StyleName">
+        <item name="android:layout_marginTop">@dimen/layout_margin</item>
+        <item name="android:fontFamily">@font/amarante</item>
+        <item name="android:paddingStart">@dimen/label_padding</item>
+    </style>
+
+    <style name="StylePerfil" parent="StyleName">
+        <item name="android:textSize">@dimen/perfil_text_size</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:paddingBottom">@dimen/perfil_padding</item>
+    </style>
+</resources>
